@@ -69,7 +69,9 @@ const Header = () => {
         style={{ backgroundColor: "darkslategrey" }}
         className="show-when-mobile amgad"
       >
-        <h1>Courses 4 Arab</h1>
+        <h1>
+          <Link to="/">Courses 4 Arab</Link>
+        </h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
