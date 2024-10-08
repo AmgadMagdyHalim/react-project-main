@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Css from "./pages/Css";
 import Html from "./pages/Html";
 import Js from "./pages/Js";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 const router = createBrowserRouter([
   {
@@ -34,3 +35,5 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+
+serviceWorkerRegistration.register();
